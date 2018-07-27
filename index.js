@@ -71,9 +71,6 @@ function createRock(x) {
    
   function moveRock() {
     // implement me!
-    let top = 0 
-    var dropPosition = positionToInteger(rock.style.top)
-    
     // (use the comments below to guide you!)
     /**
      * If a rock collides with the DODGER,
