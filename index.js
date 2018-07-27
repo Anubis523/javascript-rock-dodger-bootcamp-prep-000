@@ -172,7 +172,7 @@ function moveDodgerRight() {
    var dodgersRight = positionToInteger(theDodger.style.left)
    
     function moveR() {
-      if (dodgersRight > 40) {
+      if (dodgersRight + 40 < GAME_WIDTH) {
       DODGER.style.left = `${dodgersRight += 4}px`
       }
     }
